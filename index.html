@@ -11,36 +11,37 @@
 <body>
     <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Navbar Area>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="">
-                  </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
-                  </li>
-                  <l class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
-                  </l>
-                  <l class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
-                  </l>
-                </ul>
-              </div>
-            </div>
-        </nav>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shoes</a>
+              </li>
+              <l class="nav-item">
+                <a class="nav-link" href="#">Backpack</a>
+              </l>
+              <l class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </l>
+            </ul>
+          </div>
+    </nav>
+        </div>
           
         <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<Section 1>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
-        <section class="container bg-secondary bg-gradient rounded my-5">
+        <section class="container">
+          <div class="bg-secondary bg-gradient rounded my-5">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -103,13 +104,14 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+        </div>
         </section> 
     </header>
 
     <main>
         <!-- <<<<<<<<<<<<<<<<<<<<<<<Section 2>>>>>>>>>>>>>>>>>>>>>>> -->
 
-        <section class="container p-0 py-5">
+        <section class="container  py-5">
                 <div class="row g-5  ">
                   <div class="col-lg-4 col col-md-6">
                     <div class="px-5 py-3 rounded bg-warning d-flex align-items-center justify-content-between ">
@@ -129,13 +131,12 @@
                         <img width="120px" src="images/categories/bag.png" alt="">
                     </div>
                   </div>
-
                 </div>
         </section>
 
         <!-- <<<<<<<<<<<<<<<<<<<<<<<<<Section 3>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
-        <section class="container py-5 p-0">
+        <section class="container py-5 ">
           <h2>Shoes</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="co">
@@ -182,7 +183,7 @@
         
         <!-- <<<<<<<<<<<<<<<<<<<<<<<Section 4>>>>>>>>>>>>>>>>>>>>>>> -->
           
-          <section class="container py-5 p-0">
+          <section class="container py-5 ">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
               <div class="co">
@@ -226,6 +227,24 @@
               </div>
             </div>
           </section>
+
+          <!-- <<<<<<<<<<<<<<<<<<<<Section 4>>>>>>>>>>>>>>>>>>>> -->
+
+          <section style="height: 300px;" class="container d-flex justify-content-center align-items-center bg-info">
+           <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales, specials and more</p>
+            <input type="text" placeholder="Enter your email">
+            <br>
+            <button class="btn btn-warning">SUBMIT</button>
+           </div>
+          </section>
+
+          <!-- <<<<<<<<<<<<<<<<<<<<Footer area>>>>>>>>>>>>>>>>>>>> -->
+
+          <footer class="mt-5 text-center">
+            <small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+          </footer>
     </main>
 
 
